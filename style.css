@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    background: url(/assets/img/earth.jpeg) no-repeat fixed center;
+}
+
+.container {
+
+}
+
+#header1 {
+    animation: headerawal 2s infinite;
+    animation-direction: reverse;
+    background-color: rgba(255, 133, 133, 0.5);
+    width: 100%;
+    height: 100px;
+    transition: 5s;
+
+}
+
+@keyframes headerawal{
+    0% {
+        width: 100%;
+        height: 200px;
+        background-color: rgba(255, 89, 117, 0.5);
+    }
+
+    20% {
+        width: 100%;
+        height: 200px;
+        background-color: rgba(252, 0, 13, 0.5);
+    }
+
+    25% {
+        width: 100%;
+        height: 250px;
+        background-color: rgba(248, 12, 24, 0.5);
+    }
+
+    30% {
+        width: 100%;
+        height: 300px;
+        background-color: rgba(255, 132, 189, 0.5);
+    }
+
+    35% {
+        width: 100%;
+        height: 350px;
+        background-color: rgba(255, 49, 221, 0.5);
+    }
+
+    40% {
+        width: 100%;
+        height: 400px;
+        background-color: rgba(248, 6, 248, 0.5);
+    }
+
+    45% {
+        width: 100%;
+        height: 450px;
+        background-color: rgba(154, 114, 247, 0.5);
+    }
+
+    50% {
+        width: 100%;
+        height: 500px;
+        background-color: rgba(138, 119, 247, 0.5);
+    }
+}
+
+#headermain {
+    width: 100%;
+    height: 200px;
+    animation: headermain;
+    animation-direction: reverse;
+    display: flex;
+
+}
+
+@keyframes headermain {
+    0% {
+        width: 100%;
+        height: 200px;
+    }
+
+    20% {
+        width: 100%;
+        height: 300px;
+    }
+
+    25% {
+        width: 100%;
+        height: 350px;
+    }
+
+    40% {
+        width: 100%;
+        height: 400px;
+    }
+
+    45% {
+        width: 100%;
+        height: 450px;
+    }
+
+    60% {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+#header-logo {
+    padding: 25px 55px;
+    display: flex;
+}
+
+#header-logo h1 {
+    color: khaki;
+    font-family: 'DejaVu Sans Mono','Book';
+    font-size: 50px;
+    text-shadow: -3px 0px 5px lightskyblue, 3px 0px 5px red,
+                 -3px 0px 2px blue, 3px 0px 2px plum ;
+}
+
+#header-logo h4 {
+    padding: 25px 55px;
+    font-family: 'FreeMono','Bold Oblique';
+    color: rgb(252, 245, 183);
+    text-shadow: -5px 0px 5px green, 5px 0px 5px yellow;
+    font-size: 20px;
+}
+
+#main1 {
+    background: rgb(253, 249, 249);
+    margin-top: -100px;
+    height: 500px;
+    width: 100%;
+}
+
+#minimain {
+    padding-top: 200px;
+    text-align: center;
+    width: 1000px;
+    margin-left: 17%;
+    height: 300px;
+    background-color: rgba(16, 86, 248, 0.3);
+}
+
+#minimain h3{
+    color: rgb(252, 245, 245);
+    text-shadow: -3px 0px 5px rgb(114, 127, 241), 3px 0px 5px rgb(248, 125, 125); 
+    font-size: 30px; 
+    padding-top: 60px; 
+    font-family: 'DejaVu Sans Mono','Book';
+}    
+
+#main2 {
+    background: rgb(54, 51, 51);
+    margin-top: 250px;
+    height: 500px;
+    width: 100%;
+}
+
+#minimain2 {
+    background-color: rgba(251, 250, 255, 0.3);
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'FreeMono','Bold Oblique';
+}
+
+#biodate {
+    background-color: rgba(251, 250, 255, 0.3);
+    padding-top: 100px;
+    padding-left: 100px;
+    color: whitesmoke;
+    height: 350px;
+    display: flex;
+    width: 100%;
+}
+
+#biodate h4 {
+    padding-top: 150px;
+    font-size: 20px;
+}
+
+#biodate img {
+    margin-left: 600px;
+}
+
+#socmedfoot {
+    margin-top: 250px;
+    background-color: royalblue;
+    display: flex;
+    height: 200px;
+}
+
+#socmedfoot a {
+    margin-left: 23%;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+#socmedfoot a:hover {
+    background-color: rgba(251, 250, 255, 0.3);
+}
+
+
